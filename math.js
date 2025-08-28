@@ -1,3 +1,7 @@
+/* I hate this.
+I hate all of this.
+I am going against my morals.
+This is not good. */
 var numb1
 var numb2
 // get the random numbers
@@ -46,4 +50,17 @@ function checkAnswer() {
 }
 function nextQues() {
     window.location.href = 'math.html'
+}
+function something() {
+    alert("Do something")
+}
+function analytics() {
+    window.location.href='analytics.html'
+}
+/*
+so many random ✨window.location.href=''✨ idk why i put them here 
+i so good at coding definitely not sloppy
+*/
+function tetxarea() {
+    window.location.href='text.html'
 }
