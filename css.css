@@ -1,0 +1,130 @@
+body {
+        background-color: rgb(248, 248, 248);
+        margin: 0;
+        font-family: Tahoma, sans-serif;
+}
+
+.navbar span {
+        color:white;
+        font-family: Tahoma, sans-serif;
+        padding-right: 50px;
+}
+
+.body {
+        padding: 10px;
+}
+
+.body h1 {
+        font-family: Tahoma, sans-serif;
+        color: black;
+        text-align: center;
+}
+
+.body p {
+    color:black;
+    text-align:center;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.body button {
+        padding: 10px 24px;
+        color: #050505;
+        background: linear-gradient(90deg, #dbdbdb 0%, #646464 100%);
+        border: none;
+        border-radius: 6px;
+        font-family: Tahoma, sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        cursor: pointer;
+        transition: background 0.2s, transform 0.1s;
+}
+.body button:hover {
+        background: linear-gradient(90deg, #dfdfdf 0%, #999999 100%);
+        transform: translateY(-2px) scale(1.03);
+}
+
+.navbar {
+        background-color: rgb(65, 65, 65);
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+}
+
+.navbar .brand {
+        color: beige;
+        font-family: Tahoma, sans-serif;
+        padding-right: 100px;
+}
+
+
+.navbar-hrefs {
+        font-family: Tahoma, sans-serif;
+        color: beige;
+        text-decoration: none;
+        padding: 10px;
+}
+
+.navbar-hrefs a {
+        color: beige;
+        text-decoration: none;
+        padding: 10px;
+        transition: background 0.2s, color 0.2s;
+}
+
+.navbar-hrefs a:hover {
+        color: rgb(65, 65, 65);
+        background-color: beige;
+        text-decoration: none;
+        border-radius: 4px;
+}
+
+.navbar-hrefs:hover {
+        color: rgb(65, 65, 65);
+        text-decoration: none;
+        background-color: beige;
+        padding: 10px;
+}
+
+.body a {
+        font-family: Tahoma, Geneva, sans-serif;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: fit-content;
+}
+
+canvas {
+  display: block; /* Ensures the margin auto works correctly */
+  margin: 0 auto; /* Centers the canvas horizontally */
+}
+
+.canvas-cur {
+cursor: url('needle.png'), pointer;
+}
+
+label {
+        text-align: center;
+        font-family: Tahoma, sans-serif;
+}
+
+textarea {
+        font-family: Tahoma, sans-serif;
+}
+
+.rzz textarea {
+      width: 50%; /* Or any desired width less than 100% */
+      margin: 0 auto;
+      display: block; /* Ensure it beha
+      ves as a block element */
+      font-family: Tahoma, sans-serif;
+}
+
+code {
+        background-color: rgba(0, 0, 0, 0.2); /* 50% opaque black background */
+        padding: 5px;
+        text-align: center;
+        border-radius: 5px;
+}
